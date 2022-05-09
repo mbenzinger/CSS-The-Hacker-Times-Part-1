@@ -28,3 +28,7 @@ title{
 nav a{
     color: #777;
 }
+
+ul li{
+    list-style-type: none;
+}
