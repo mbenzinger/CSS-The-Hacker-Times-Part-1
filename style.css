@@ -10,6 +10,7 @@ body{
 
 header{
     font-family: 'Abril Fatface';
+    text-align: center;
 }
 
 title{
@@ -19,4 +20,11 @@ title{
 .newspaper-container{
     background-color: white;
     box-shadow: 2px 2px #ddd;
+    width: 700px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+nav a{
+    color: #777;
 }
