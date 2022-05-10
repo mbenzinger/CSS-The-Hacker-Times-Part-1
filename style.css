@@ -2,6 +2,10 @@
 nav{
     border-top: 2px solid #777;
     border-bottom: 2px solid #777;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: white;
 }
 
 body{
@@ -28,11 +32,43 @@ title{
 
 nav a{
     color: #777;
+
 }
 
 ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 5px;
+    padding: 8px;
+    padding-left:0;
 }
 
+.more-articles section {
+    display: inline-block;
+    width: 45%;
+    margin: 15px;
+    text-align: justify;
+}
+
+.more-articles img {
+    width: 100%;
+  }
+
+main{
+    text-align: justify;
+}
+
+main img{
+ width:100%
+}
+
+.bottom-articles section {
+    display: inline-grid;
+    width: 28%;
+    text-align: justify;
+    padding: 15px;
+}
+
+.bottom-articles img{
+    width: 100%;
+
+}
